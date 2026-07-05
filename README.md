@@ -104,8 +104,6 @@ print(f'GPflow: {gpflow.__version__}')
 ```
 FlashAIR/
 ├── flashair/                          # Main package
-│   ├── __init__.py                    # Package initialization
-│   ├── config.py                      # Configuration settings
 │   ├── FlashAIRa_Predictor.py         # FlashAIRa: Fast fragment-based prediction
 │   ├── FlashAIRa_analysis.py          # FlashAIRa evaluation tools
 │   ├── FlashAIRa_prediction_and_evaluate.py  # FlashAIRa core algorithm
@@ -114,12 +112,6 @@ FlashAIR/
 │   ├── FlashAIRx_matcher.py           # FlashAIRx: Spectral matching
 │   ├── FlashAIRx_train_and_evaluate.py # FlashAIRx training pipeline
 │   └── models/                        # Pre-trained model files
-│       ├── fgss_single.pkl            # Single functional group models
-│       ├── fgsm_multi.pkl             # Multiple functional group models
-│       ├── xtb2dft_all_models.pkl     # Complete GPR model dictionary
-│       ├── Acid_gpr.pkl               # Carboxylic acid specific model
-│       ├── Halide_gpr.pkl             # Halide specific model
-│       └── Nitro_gpr.pkl              # Nitro specific model
 ├── data/                              # Database
 │   └── FlashAIR-QM9d.db               # QM9-derived IR spectra database
 ├── Demo/                              # Jupyter demo notebooks
