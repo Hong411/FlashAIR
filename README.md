@@ -233,16 +233,13 @@ if result['best_overall']:
 
 ---
 
-## 📊 Model Files
+## 📊 Model Files not in folds
 
 | File | Description | Size |
 |------|-------------|------|
 | `xtb2dft_all_models.pkl` | Complete dictionary of all GPR models | ~1.4 GB |
 | `fgss_single.pkl` | Single functional group models (16 types) | ~300 MB |
 | `fgsm_multi.pkl` | Multiple functional group models | ~1.1 GB |
-| `Acid_gpr.pkl` | Carboxylic acid specific model | ~10 MB |
-| `Halide_gpr.pkl` | Halide specific model | ~19 MB |
-| `Nitro_gpr.pkl` | Nitro specific model | ~1.2 MB |
 
 The models are pre-trained on the FlashAIR-QM9d database and cover 16 functional group types:
 - Alkane, Alkene, Alkyne, Alcohol, Aldehyde, Ketone, Carboxylic Acid, Ester, Ether, Amide, Amine, Imine, Nitrile, Nitro, Halide, Aromatic
@@ -254,11 +251,11 @@ The models are pre-trained on the FlashAIR-QM9d database and cover 16 functional
 If you use FlashAIR in your research, please cite:
 
 ```bibtex
-@article{flashair2024,
+@article{flashair2026,
     title={FlashAIR: Fast and Interpretable IR Spectral Analysis via Physical Prior and Residual Correction},
     author={FlashAIR Team},
     journal={},
-    year={2024},
+    year={2026},
 }
 ```
 
