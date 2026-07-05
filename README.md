@@ -1,7 +1,3 @@
-## 更新后的 README.md（使用 environment.yml）
-
----
-
 # FlashAIR: Fast Infrared Spectral Analysis with Physical Prior and Residual Correction
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
