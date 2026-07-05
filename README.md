@@ -113,7 +113,7 @@ FlashAIR/
 │   ├── FlashAIRx_train_and_evaluate.py # FlashAIRx training pipeline
 │   └── models/                        # Pre-trained model files
 ├── data/                              # Database
-│   └── FlashAIR-QM9d.db               # QM9-derived IR spectra database
+│   └── FlashAIR-QM9d.db               # db file can be found at https://zenodo.org/records/21120378 with doi:https://doi.org/10.5281/zenodo.21120378
 ├── Demo/                              # Jupyter demo notebooks
 │   └── FlashAIR_Demo.ipynb            # Main demonstration notebook
 ├── environment.yml                    # Conda environment specification
